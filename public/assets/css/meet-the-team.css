@@ -1,0 +1,197 @@
+/*body {
+	background: #f6acc3;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Fjalla One', sans-serif;
+
+}
+
+p,label{
+	font-family: 'Raleway', sans-serif;
+
+}*/
+
+@import url('fonts.css');
+
+/* MEET THE TEAM DESIGN */ 
+
+
+.about-us #page-wrapper {
+    background: #f6acc3;
+}
+
+.no-pad {
+	padding: 0px;
+}
+
+.no-pad-LR{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.no-pad-R{
+    padding-right: 0px;
+}
+
+.no-pad-L{
+    padding-left: 0px;
+}
+
+/*Team -section*/
+
+#team-section {
+	height: 520px;
+}
+
+#team-section .col-md-2.col-sm-2.col-xs-6{
+	/*padding-left: 0px;*/
+}
+
+#team-section .head h1 {
+    font-size: 60px;
+    padding: 35px 0 0;
+    margin: 0 30px 30px;
+    color: #fff;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-family: 'Geo', sans-serif;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+}
+
+.team-2 {
+	position: relative;
+}
+
+.team-2 .team-profile {
+    position: absolute;
+    padding-right: 15px;
+    top: -60px;
+    /*top: -50px;*/
+}
+
+.team-profile h4 {
+
+    font-family: 'Geo', sans-serif;
+}
+#team-section .team-data.team-1 .team-profile h4{
+    padding: 5px;
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-70%);
+}
+
+#team-section .team-data.team-2 .team-profile h4 {
+    color: #000;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-60%);
+}
+
+.member-img img{
+	width: 100%;
+
+}
+
+.member-img {
+    border-radius: 50%;
+    background: #f6acc3;
+    border: 4px solid #fff;
+}
+
+.member-desc {
+    background: rgba(255, 255, 255, 0.3);
+    border: .5px solid #fff;
+}
+
+.member-desc h5{
+	margin:0px;
+	text-transform: uppercase;
+	letter-spacing: .4px;
+	font-size: 12px;
+}
+
+.member-desc {
+    padding: 5px;
+    margin: 4px 15px;
+}
+
+
+
+/*Team media queries*/
+@media (max-width: 768px){
+	.team-data .col-xs-6 {
+		width: 50%;
+		padding-top : 10px;
+	}
+}
+
+
+/*Heading*/
+
+.heading {
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    background: #eb85ac;
+    color: #fff;
+    
+}
+.heading h2{
+    font-size: 24px;
+    text-align: center;
+    margin: 16px 0
+}
+
+
+/* team-overview */
+
+#team-overview .overview {
+	padding: 50px 0px 70px;
+	color: #fff;
+}
+
+#team-overview .overview p {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-weight: lighter;
+    text-indent: 60px;
+}
+
+
+/* Components */
+
+#components p.compIntro {
+	color: #fff;
+	padding: 0px 0px;
+	font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-weight: lighter;
+}
+
+#components img {
+	width: 100%;
+	height: 420px;
+	padding-bottom: 30px;
+}
+
+#components .img-wrapper {
+	padding: 45px 0px 60px;
+	position: relative;
+    background: #f6acc3;
+}
+
+.img-wrapper h3 {
+	position: absolute;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    font-weight: bold;
+    background: linear-gradient(90deg,rgb(235, 133, 172) 25%,rgba(255, 255, 255, 0.23) ,rgba(0, 0, 0, 0.1));
+    padding: 10px 20px;
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Messenger-Pigeons';
+  src: url('../fonts/messenger-pigeons.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-CondBold';
+  src: url('../fonts/OpenSans-CondBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-CondLight';
+  src: url('../fonts/OpenSans-CondLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+/* MEET THE TEAM */
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('../fonts/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaviarDreams_Bold';
+  src: url('../fonts/CaviarDreams_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaviarDreams_BoldItalic';
+  src: url('../fonts/CaviarDreams_BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CaviarDreams_Italic';
+  src: url('../fonts/CaviarDreams_Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geo';
+  src: url('../fonts/geo.otf') format('opentype');
+}
+
