@@ -20,7 +20,12 @@ iNanay | App Description
 
             <div class="row">
               <div class="col-md-12">
-              	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae labore eos repellat expedita, ipsum? Ducimus libero harum dicta consectetur. Minima expedita deleniti illum laudantium nemo molestias tempora cupiditate qui quos.</p>
+                <p>Purpose: This application aims to help Rural Health Unit(RHU) monitor the pregnancy checkup within the community. The nurse/midwife can register new member(pregnant woman), determine her Estimated Date of Conception(EDC) basing from her Last Menstrual Period(LMP), and be able to monitor if the mother is reporting regularly for pregnancy checkup.</p>
+
+                <p>Features:</p>
+                <p>Midwife can add new pregnant member to be monitored</p>
+                <p>Midwife can set regular pregnancy checkup(Appointment)</p>
+                <p>Midwife can add results of regular pregnancy checkup (Appointment's Result)</p>
               </div>
             </div>
         </div>
