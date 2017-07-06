@@ -35,10 +35,13 @@ Route::get('/', function () {
 // Dashboard Route
 Route::get('/dashboard', 'DashboardController@index');
 Route::get('/about-us', 'DashboardController@aboutus');
-Route::get('/meet-the-team', function() {
-	return view('meet-the-team');
+Route::get('app-description', function() {
+	return view('app-description', ['main_menu' => 'app_description']);
 });
 
+// Route::get('/meet-the-team', function() {
+// 	return view('meet-the-team');
+// });
 /*
 |--------------------------------------------------------------------------
 | User Routes

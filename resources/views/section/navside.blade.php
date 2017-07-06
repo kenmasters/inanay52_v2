@@ -34,6 +34,9 @@
             <li>
                 <a class="{{ ( isset($main_menu) && $main_menu == 'aboutus' ? 'active-menu' : '' ) }}" href="{{url('about-us')}}"><i class="fa fa-dashboard "></i>Meet the Team</a>
             </li>
+            <li>
+                <a class="{{ ( isset($main_menu) && $main_menu == 'app_description' ? 'active-menu' : '' ) }}" href="{{url('app-description')}}"><i class="fa fa-th"></i>Application Description</a>
+            </li>
         <!--
            <li>
                 <a href="#" class="{{ ( isset($main_menu) && $main_menu == 'appointments' ? 'active-menu-top' : '' ) }}"><i class="fa fa-calendar-o"></i>Appointments<span class="fa arrow"></span></a>
