@@ -7,11 +7,18 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Carbon\Carbon;
 
+use App\User;
 use App\Appointment;
 
 class TestController extends Controller
 {
     public function index(Request $resquest) {
+        // Reset Admin User password
+        // $user = User::find(1);
+        // $password = bcrypt('admin');
+        // $user->password = $password;
+        // $user->save();
+        // dd($user);
     	$curr_date_start_1d = strtotime(date('Y-m-d') . '+1 day');
     	$curr_date_start = date('Y-m-d').' 00:00:00';
     	$curr_date_end = date('Y-m-d').' 23:59:59';
